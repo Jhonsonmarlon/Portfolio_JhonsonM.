@@ -89,6 +89,11 @@ nav menu a:hover {
     border-radius: 70px 70px 20px 20px;
 }
 
+.imagem_home img {
+    width: 275px;
+    height: 275px;
+}
+
 /* --------------- SOBRE */
 
 #sobre {
@@ -128,6 +133,14 @@ nav menu a:hover {
     border-radius: 30px;
 }
 
+.img_cont_sobre img {
+    display: flex;
+    justify-content: end;
+    width: 275px;
+    height: 275px;
+    border-radius: 27px;
+}
+
 .texto-box-button_cont_sobre {
     display: flex;
     flex-direction: column;
@@ -146,17 +159,29 @@ nav menu a:hover {
     gap: 25px;
 }
 
+.box_cont_sobre .box {
+    width: 130px;
+    height: 100px;
+}
+
+.box img {
+    width: 65px;
+    height: 65px;
+}
+
 .box {
     background-color: #182228;
     border-radius: 15px;
     padding: 12px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
 }
 
 .box h5 {
     color: #ffffff;
 }
-
-
 
 .button_cont_sobre {
     display: flex;
