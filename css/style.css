@@ -3,12 +3,16 @@
     padding: 0 auto;
 }
 
+
+/* ---------------- CORPO GERAL DO PROJETO */
 body {
     background-color: #111a20;
 }
 
+
+/* ---------------- HEADER */
 nav {
-    font-weight: bold;
+
     font-family: 'Jost', sans-serif;
     display: flex;
     flex-direction: row;
@@ -19,7 +23,156 @@ nav {
 }
 
 nav menu {
+    font-weight: bold;
     display: flex;
     flex-direction: row;
     gap: 34px;
+}
+
+nav menu a {
+    color: white;
+    text-decoration: none;
+}
+
+nav menu a:hover {
+    color: #ffa97a;
+}
+
+/* ------------------ HOME  */
+
+#home {
+    text-align: center;
+    margin: 0px 177px 0px 177px;
+    padding: 46px 290px 0px 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.texto_home {
+    color: white;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.texto_home .cargo {
+    color: #ffa97a;
+}
+
+.botoes_home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+}
+
+.botoes_home a {
+    border: 1px solid #ffa97a;
+    padding: 13px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.botoes_home .b_sobre {
+    color: #17232b;
+    background-color: #ffa97a;
+}
+
+.imagem_home {
+    margin: 0px 75px 0px 75px;
+    background-color: #ffa97a;
+    border-radius: 70px 70px 20px 20px;
+}
+
+/* --------------- SOBRE */
+
+#sobre {
+    text-align: center;
+    margin: 0px 177px 0px 177px;
+    padding: 70px 22px 36px 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+}
+
+.titulo_sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.titulo_sobre h1 {
+    color: #ffa97a;
+    font-family: 'Jost', sans-serif;
+}
+
+.titulo_sobre h5 {
+    color: #767676;
+}
+
+.cont_sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 28px;
+}
+
+.img_cont_sobre {
+    margin: 0px 75px 0px 75px;
+    background-color: #ffa97a;
+    border-radius: 30px;
+}
+
+.texto-box-button_cont_sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+}
+
+.texto_cont_sobre p {
+    color: #959595;
+    text-align: justify;
+}
+
+.box_cont_sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+.box {
+    background-color: #182228;
+    border-radius: 15px;
+    padding: 12px 25px;
+}
+
+.box h5 {
+    color: #ffffff;
+}
+
+
+
+.button_cont_sobre {
+    display: flex;
+    justify-content: center;
+}
+
+.button_contate-me {
+    padding: 13px;
+    background-color: #ffa97a;
+    border: 1px solid #ffa97a;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+}
+
+.button_contate-me a {
+    color: #17232b;
+    text-decoration: none;
 }
