@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0 auto;
+}
+
+body {
+    background-color: #111a20;
+}
+
+nav {
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-color: #17232b;
+    padding: 26px 27px;
+}
+
+nav menu {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
