@@ -12,7 +12,10 @@ body {
 
 /* ---------------- HEADER */
 nav {
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     font-family: 'Jost', sans-serif;
     display: flex;
     flex-direction: row;
@@ -43,7 +46,7 @@ nav menu a:hover {
 #home {
     text-align: center;
     margin: 0px 177px 0px 177px;
-    padding: 46px 290px 0px 290px;
+    padding: 120px 290px 0px 290px;
     display: flex;
     flex-direction: column;
     gap: 26px;
@@ -164,23 +167,30 @@ nav menu a:hover {
     height: 100px;
 }
 
-.box img {
-    width: 65px;
-    height: 65px;
+.box_sobre img {
+    width: 35px;
+    height: 35px;
 }
 
-.box {
+.box_sobre {
     background-color: #182228;
     border-radius: 15px;
     padding: 12px 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 6px;
 }
 
-.box h5 {
-    color: #ffffff;
+.box_sobre h5 {
+    color: #959595;
+}
+
+.box_sobre p {
+    color: #ffa97a;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
 }
 
 .button_cont_sobre {
