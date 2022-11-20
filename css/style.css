@@ -480,9 +480,17 @@ nav menu a:hover {
     font-weight: bold;
 }
 
+.op_works a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .op1_works {
     background-color: #ffa97a;
-    color: #182228;
+}
+
+.op1_works a {
+    color: #182228
 }
 
 .proj_works {
@@ -532,3 +540,51 @@ nav menu a:hover {
     border-radius: 5px;
     text-decoration: none;
 }
+
+/* ------------------------------- CONTATE-ME */
+
+#contate-me {
+    text-align: center;
+    margin: 90px 177px 0px 177px;
+    padding: 90px 22px 20px 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.titulo_contate-me {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.titulo_contate-me h1 {
+    color: #ffa97a;
+    font-family: 'Jost', sans-serif;
+}
+
+.titulo_contate-me h5 {
+    color: #767676;
+}
+
+.redes-sociais_contate-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+}
+
+.button_redes-sociais_contate-me {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 70px;
+}
+
+.button_redes-sociais_contate-me a {
+    padding: 15px;
+    background-color: #17232b;
+    border-radius: 20px;
+}
+
+/* ------------------------------------ FOOTER  */
