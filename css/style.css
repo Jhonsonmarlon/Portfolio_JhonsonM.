@@ -4,13 +4,13 @@
 }
 
 
-/* ---------------- CORPO GERAL DO PROJETO */
+/* --------------------------------- CORPO GERAL DO PROJETO */
 body {
     background-color: #111a20;
 }
 
 
-/* ---------------- HEADER */
+/* ----------------------------------------- HEADER */
 nav {
     position: fixed;
     top: 0;
@@ -52,7 +52,7 @@ nav menu a:hover {
     font-size: 28px;
 }
 
-/* ------------------ HOME  */
+/* ------------------------------------------ HOME  */
 
 #home {
     text-align: center;
@@ -108,7 +108,7 @@ nav menu a:hover {
     height: 275px;
 }
 
-/* --------------- SOBRE */
+/* ---------------------------------------- SOBRE */
 
 #sobre {
     text-align: center;
@@ -223,7 +223,7 @@ nav menu a:hover {
     text-decoration: none;
 }
 
-/* ------------ MINHAS EXPERIENCIAS (EXP) */
+/* ---------------------------- MINHAS EXPERIENCIAS (EXP) */
 
 #exp {
     text-align: center;
@@ -313,9 +313,44 @@ nav menu a:hover {
 
 .barra_box_exp {
     width: 100%;
-    height: 5px;
-    background-color: #767676;
+    background-color: #ffa97a82;
+}
+
+.barra_box_exp,
+.barra_frente {
     border-radius: 20px;
+    height: 5px;
 }
 
 /* //detalhamento das barra_box's// */
+
+.barra_frente {
+    background-color: #ffa97a;
+    opacity: 100%;
+}
+
+.hab_1 {
+    width: 60%;
+}
+
+.hab_2 {
+    width: 85%;
+}
+
+.hab_3 {
+    width: 30%;
+}
+
+.hab_4 {
+    width: 60%;
+}
+
+.hab_5 {
+    width: 50%;
+}
+
+.hab_6 {
+    width: 30%;
+}
+
+/* ---------------------------------- SERVIÇOS */
