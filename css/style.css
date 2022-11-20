@@ -41,6 +41,17 @@ nav menu a:hover {
     color: #ffa97a;
 }
 
+#navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+}
+
+.nome_navbar a {
+    font-size: 28px;
+}
+
 /* ------------------ HOME  */
 
 #home {
@@ -102,7 +113,7 @@ nav menu a:hover {
 #sobre {
     text-align: center;
     margin: 0px 177px 0px 177px;
-    padding: 70px 22px 36px 51px;
+    padding: 85px 22px 36px 51px;
     display: flex;
     flex-direction: column;
     gap: 78px;
@@ -211,3 +222,100 @@ nav menu a:hover {
     color: #17232b;
     text-decoration: none;
 }
+
+/* ------------ MINHAS EXPERIENCIAS (EXP) */
+
+#exp {
+    text-align: center;
+    margin: 0px 177px 0px 177px;
+    padding: 85px 22px 36px 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+}
+
+.titulo_exp {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.titulo_exp h1 {
+    color: #ffa97a;
+    font-family: 'Jost', sans-serif;
+}
+
+.titulo_exp h5 {
+    color: #767676;
+}
+
+.titulo_box_exp {
+    text-align: justify;
+    color: #ffffff;
+}
+
+.titulo_box_exp p {
+    color: #767676;
+    font-size: 14px;
+}
+
+.box_expgeral {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 88px;
+    width: 100%;
+}
+
+.box_exp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 20px;
+    background-color: #182228;
+    padding: 22px 44px 63px 31px;
+    width: 300px;
+    height: 250px;
+    align-items: flex-start;
+}
+
+.hab_box_expgeral {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.hab_box_exp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hab_box_exp h4 {
+    color: white;
+    font-weight: bold;
+}
+
+.hab_box_exp p {
+    color: #767676;
+    font-size: 11px;
+    font-family: 'Jost', sans-serif;
+}
+
+.hab {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.barra_box_exp {
+    width: 100%;
+    height: 5px;
+    background-color: #767676;
+    border-radius: 20px;
+}
+
+/* //detalhamento das barra_box's// */
