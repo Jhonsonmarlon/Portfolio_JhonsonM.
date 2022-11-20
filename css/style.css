@@ -354,3 +354,87 @@ nav menu a:hover {
 }
 
 /* ---------------------------------- SERVIÇOS */
+
+#serv {
+    text-align: center;
+    margin: 0px 177px 0px 177px;
+    padding: 90px 22px 20px 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo_serv {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.titulo_serv h1 {
+    color: #ffa97a;
+    font-family: 'Jost', sans-serif;
+}
+
+.titulo_serv h5 {
+    color: #767676;
+}
+
+.titulo_box_serv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.titulo_box_serv p {
+    color: #767676;
+    font-size: 14px;
+}
+
+.box_servgeral {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.box_serv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    border-radius: 20px;
+    background-color: #182228;
+    padding: 40px 44px 40px 31px;
+    width: 300px;
+    height: 150px;
+    align-items: flex-start;
+}
+
+.box_serv p {
+    color: #767676;
+    text-align: justify;
+}
+
+.button_contate-me_serv {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+}
+
+.button_contate-me_serv a {
+    background-color: #182228;
+    border: 1px solid #ffa97a;
+    color: #ffffff;
+    padding: 9px;
+    border-radius: 5px;
+    text-decoration: none;
+}
