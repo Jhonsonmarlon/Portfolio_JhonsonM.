@@ -116,7 +116,7 @@ nav menu a:hover {
     padding: 85px 22px 36px 51px;
     display: flex;
     flex-direction: column;
-    gap: 78px;
+    gap: 30px;
 }
 
 .titulo_sobre {
@@ -546,10 +546,10 @@ nav menu a:hover {
 #contate-me {
     text-align: center;
     margin: 90px 177px 0px 177px;
-    padding: 90px 22px 20px 51px;
+    padding: 90px 22px 80px 51px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
 }
 
 .titulo_contate-me {
@@ -588,3 +588,58 @@ nav menu a:hover {
 }
 
 /* ------------------------------------ FOOTER  */
+
+#footer {
+    background-color: #ffa97a;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    justify-content: center;
+    text-align: center;
+    padding: 31px 0px 10px 0px;
+}
+
+#footer h2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.navbar-menu_footer {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    justify-content: center;
+}
+
+.navbar-menu_footer a {
+    text-decoration: none;
+    color: #17232b;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+}
+
+.redes-sociais_footer {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.redes-sociais_footer a {
+    padding: 5px 7px;
+    background-color: #17232b;
+    border-radius: 5px;
+}
+
+.redes-sociais_footer a img {
+    width: 15px;
+    height: 15px;
+}
+
+.direitos-reservados {
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    padding: 90px 0px 10px 0px;
+}
