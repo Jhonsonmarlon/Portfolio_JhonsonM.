@@ -643,3 +643,73 @@ nav menu a:hover {
     font-weight: bold;
     padding: 90px 0px 10px 0px;
 }
+
+/* ---------------------------- MIDIA QUERY ---------------- */
+
+@media (max-width: 540px) {
+
+    /* responsive: #navbar */
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav img {
+        width: 55px;
+        height: 55px;
+    }
+
+    /* responsive: #home */
+    #home {
+        margin: 0px 5px 0px 5px;
+        padding: 120px 5px 0px 5px;
+    }
+
+    /* responsive: #sobre */
+    #sobre {
+        margin: 0px 5px 0px 5px;
+        padding: 85px 10px 36px 10px;
+    }
+
+    .cont_sobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img_cont_sobre img {
+        height: 280px;
+    }
+
+    .box_cont_sobre {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* responsive: #exp */
+    #exp {
+        margin: 0px 5px 0px 5px;
+        padding: 85px 5px 36px 5px;
+    }
+
+    .box_expgeral {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* responsividade: #works */
+    #exp {
+        margin: 0px 5px 0px 5px;
+        padding: 85px 5px 36px 5px;
+
+    }
+}
+
+@media (min-width: 700px) {}
+
+@media (min-width: 1100px) {}
