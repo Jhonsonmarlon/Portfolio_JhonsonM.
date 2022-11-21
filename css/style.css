@@ -702,11 +702,77 @@ nav menu a:hover {
         gap: 20px;
     }
 
-    /* responsividade: #works */
-    #exp {
+    /* responsividade: #serv */
+    #serv {
         margin: 0px 5px 0px 5px;
         padding: 85px 5px 36px 5px;
+    }
 
+    .box_servgeral {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* resposividade: #works */
+
+    #works {
+        margin: 0px 5px 0px 5px;
+        padding: 90px 5px 20px 5px;
+    }
+
+    .box_proj_works {
+        padding: 40px 55px 40px 55px;
+        display: flex;
+        align-items: center;
+    }
+
+    .proj_works {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button_box_works {
+        justify-content: center;
+    }
+
+    .box_proj_works img {
+        width: 260px;
+    }
+
+    /* responsividade: #contate-me */
+
+    #contate-me {
+        margin: 90px 5px 0px 5px;
+        padding: 90px 5px 80px 5px;
+    }
+
+    .redes-sociais_contate-me {
+        gap: 10px;
+    }
+
+    /* responsividade: #footer */
+
+    .navbar-menu_footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .redes-sociais_footer {
+        padding-top: 50px;
+    }
+
+    .redes-sociais_footer a {
+        padding: 10px 10px;
+    }
+
+    .redes-sociais_footer a img {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .direitos-reservados {
+        padding: 30px 0px 10px 0px;
     }
 }
 
