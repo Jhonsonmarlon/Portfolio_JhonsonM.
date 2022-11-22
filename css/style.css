@@ -15,7 +15,6 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     font-family: 'Jost', sans-serif;
     display: flex;
     flex-direction: row;
@@ -677,7 +676,7 @@ i#burguer {
     .menu_organizado {
         display: flex;
         flex-direction: row;
-        gap: 30px;
+        gap: 110px;
     }
 
     i#burguer {
@@ -699,7 +698,13 @@ i#burguer {
 
     #itens {
         display: none;
-        flex-wrap: wrap;
+    }
+
+    #itens ul {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
     nav img {
