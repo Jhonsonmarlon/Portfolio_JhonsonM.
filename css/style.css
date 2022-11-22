@@ -9,7 +9,6 @@ body {
     background-color: #111a20;
 }
 
-
 /* ----------------------------------------- HEADER */
 nav {
     position: fixed;
@@ -17,6 +16,7 @@ nav {
     left: 0;
     font-family: 'Jost', sans-serif;
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-around;
     color: white;
@@ -38,8 +38,15 @@ i#burguer {
 #itens {
     font-weight: bold;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 34px;
+}
+
+#itens ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
 }
 
 #itens li {

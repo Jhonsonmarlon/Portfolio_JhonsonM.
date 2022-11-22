@@ -5,10 +5,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="./assets/imgs/pc-legal.png">
+        <link id="favicon" rel="icon" href="./assets/icons/favicon-pclegal].png">
         <title>Portfolio Jhonson</title>
+        <!-- links de pastas locais -->
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./js/main.js">
+
+        <!-- links de apis e arquivos externos -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2? family=Jost:wght@600;700&display=swap" rel="stylesheet">
@@ -33,17 +36,8 @@
                         <li><a href="#contate-me">Contato</a></li>
                     </ul>
                 </menu>
-                <img src="./assets/icons/icon-darkmode.svg" alt="icone de dark mode">
+                <a href="#"><img src="./assets/icons/icon-darkmode.svg" alt="icone de dark mode"></a>
             </nav>
-            <script>
-                function clickMenu() {
-                    if (itens.style.display == 'flex') {
-                        itens.style.display = 'none'
-                    } else {
-                        itens.style.display = 'flex'
-                    }
-                }
-            </script>
         </header>
         <main>
             <div id="home">
@@ -65,7 +59,7 @@
             <div id="sobre">
                 <div class="titulo titulo_sobre">
                     <h1>Sobre Mim</h1>
-                    <h5 class="descricao">--resume--</h5>
+                    <h5 class="descricao">-- About me --</h5>
                 </div>
                 <div class="cont_sobre">
                     <div>
@@ -93,17 +87,18 @@
                             <div class="box_sobre box2">
                                 <img src="./assets/icons/icon-box_sobre.svg" alt="">
                                 <h5>Completado</h5>
-                                <p>Calendario Copa</p>
+                                <p>Calendário Copa</p>
                             </div>
                             <div class="box_sobre box3">
                                 <img src="./assets/icons/icon-box_sobre.svg" alt="">
                                 <h5>Completado</h5>
-                                <p>Projeto Alpha</p>
+                                <p>Java - POO</p>
                             </div>
                         </div>
                         <div class="button_cont_sobre">
                             <div class="button_contate-me">
-                                <a href="#contate-me">Contate-me</a>
+                                <a
+                                    href="https://api.whatsapp.com/send?phone=5595981049469&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%20com%3A%20%09-%3E%20*Assist%C3%AAncia%20t%C3%A9cnica*%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%3B%3F%20%09-%3E%20*Suporte*%F0%9F%92%BB%3B%3F">Contate-me</a>
                             </div>
                         </div>
                     </div>
@@ -112,19 +107,19 @@
             <div id="exp">
                 <div class="titulo titulo_exp">
                     <h1>Experiência</h1>
-                    <h5 class="descricao">----</h5>
+                    <h5 class="descricao">-- Experience --</h5>
                 </div>
                 <div class="box_expgeral">
                     <div class="box_exp box_exp1">
                         <div class="titulo_box_exp">
                             <h3>Front-End</h3>
-                            <p>Aprendizado de 8 meses</p>
+                            <p>Aprendizado de 4 meses</p>
                         </div>
                         <div class="hab_box_expgeral">
                             <div class="hab ">
                                 <div class="hab_box_exp">
                                     <h4>HTML</h4>
-                                    <p>60%</p>
+                                    <p>70%</p>
                                 </div>
                                 <div class="barra_box_exp">
                                     <div class="barra_frente hab_1"></div>
@@ -133,7 +128,7 @@
                             <div class="hab">
                                 <div class="hab_box_exp">
                                     <h4>CSS</h4>
-                                    <p>90%</p>
+                                    <p>70%</p>
                                 </div>
                                 <div class="barra_box_exp">
                                     <div class="barra_frente  hab_2"></div>
@@ -153,13 +148,13 @@
                     <div class="box_exp box_exp2">
                         <div class="titulo_box_exp">
                             <h3>Back-end</h3>
-                            <p>aprendizado de 6 meses</p>
+                            <p>Aprendizado de 1 mês</p>
                         </div>
                         <div class="hab_box_expgeral">
                             <div class="hab">
                                 <div class="hab_box_exp">
                                     <h4>TAILWIND</h4>
-                                    <p>60%</p>
+                                    <p>45%</p>
                                 </div>
                                 <div class="barra_box_exp">
                                     <div class="barra_frente hab_4"></div>
@@ -177,7 +172,7 @@
                             <div class="hab">
                                 <div class="hab_box_exp">
                                     <h4>VITE</h4>
-                                    <p>30%</p>
+                                    <p>20%</p>
                                 </div>
                                 <div class="barra_box_exp">
                                     <div class="barra_frente hab_6"></div>
@@ -190,7 +185,7 @@
             <div id="serv">
                 <div class="titulo titulo_serv">
                     <h1>Serviços</h1>
-                    <h5 class="descricao">----</h5>
+                    <h5 class="descricao">-- Services --</h5>
                 </div>
                 <div class="box_servgeral">
                     <div class="box_serv serv1">
@@ -204,7 +199,8 @@
                             com designs incriveis e de acordo com seu ramo.
                         </p>
                         <div class="button_contate-me_serv">
-                            <a href="">Contate-me</a>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=5595981049469&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%20com%3A%20%09-%3E%20*Cria%C3%A7%C3%A3o%20de%20website%20ou%20landing-page*%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%3B%3F">Contate-me</a>
                         </div>
                     </div>
                     <div class="box_serv serv2">
@@ -212,11 +208,12 @@
                             <img src="./assets/icons/icon-verificado.svg" alt="">
                             <h4>Desenvolvimento de Algorítmos em C</h4>
                         </div>
-                        <p>Experiência em responsividade e construção de
-                            páginas e funcionalidades em uma landing-page
-                            com designs incriveis e de acordo com seu ramo.</p>
+                        <p>Experiência criação e desenvolvimento de
+                            programas em C, concomitante a projetos
+                            eletrônicos envolvendo Arduino.</p>
                         <div class="button_contate-me_serv">
-                            <a href="">Contate-me</a>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=5595981049469&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%20com%3A%20%09-%3E%20*Desenvolvimento%20de%20Algor%C3%ADtmo%20em%20C*%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%3B%3F">Contate-me</a>
                         </div>
                     </div>
                     <div class="box_serv serv3">
@@ -224,11 +221,12 @@
                             <img src="./assets/icons/icon-verificado.svg" alt="">
                             <h4>Desenvolvimento de aplicações Java</h4>
                         </div>
-                        <p>Experiência em responsividade e construção de
-                            páginas e funcionalidades em uma landing-page
-                            com designs incriveis e de acordo com seu ramo.</p>
+                        <p>Experiência em processamento de dados e criação
+                            de intervaces Java, utilizando as mais recentes
+                            bibliotecas e suas funcionalidades.</p>
                         <div class="button_contate-me_serv">
-                            <a href="">Contate-me</a>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=5595981049469&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%20com%3A%20%09-%3E%20*Desenvolvimento%20de%20aplica%C3%A7%C3%B5es%20Java*%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%3B%3F">Contate-me</a>
                         </div>
                     </div>
                     <div class="box_serv serv4">
@@ -236,11 +234,12 @@
                             <img src="./assets/icons/icon-verificado.svg" alt="">
                             <h4>Instalação e formatação de S.O</h4>
                         </div>
-                        <p>Experiência em responsividade e construção de
-                            páginas e funcionalidades em uma landing-page
-                            com designs incriveis e de acordo com seu ramo.</p>
+                        <p>Experiência em limpeza de softwares do sistema
+                            operacional, formatando e alterando
+                            licenças de aplicativos e SO.</p>
                         <div class="button_contate-me_serv">
-                            <a href="">Contate-me</a>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=5595981049469&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%20com%3A%20%09-%3E%20*Instala%C3%A7%C3%A3o%20e%20formata%C3%A7%C3%A3o%20de%20S.O*%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%3B%3F">Contate-me</a>
                         </div>
                     </div>
                 </div>
@@ -248,7 +247,7 @@
             <div id="works">
                 <div class="titulo titulo_works">
                     <h1>Projetos Recentes</h1>
-                    <h5 class="descricao">----</h5>
+                    <h5 class="descricao">-- Projects Recents --</h5>
                 </div>
                 <div class="opcoes_works">
                     <div class="op_works op1_works">
@@ -266,14 +265,14 @@
                         <h3>⚽ Na Trave - Bolão Copa</h3>
                         <img src="./assets/imgs/img-works1.svg" alt="foto projeto">
                         <div class="button_box_works">
-                            <a href="">Veja mais</a>
+                            <a href="https://github.com/Jhonsonmarlon/CursoWEBcompleto">Veja mais</a>
                         </div>
                     </div>
                     <div class="box_proj_works work2">
                         <h3>🗓️ Calendário Copa 2022</h3>
                         <img src="./assets/imgs/img-works2.svg" alt="foto projeto 2">
                         <div class="button_box_works">
-                            <a href="">Veja mais</a>
+                            <a href="https://jhonsonmarlon.github.io/CALENDARIO_DE_JOGOS-COPA2022/">Veja mais</a>
                         </div>
                     </div>
                 </div>
@@ -281,7 +280,7 @@
             <div id="contate-me">
                 <div class="titulo titulo_contate-me">
                     <h1>Contate-me</h1>
-                    <h5 class="descricao">----</h5>
+                    <h5 class="descricao">-- Contat --</h5>
                 </div>
                 <div class="redes-sociais_contate-me">
                     <div class="button_redes-sociais_contate-me">
@@ -304,7 +303,8 @@
                     <a href="#exp">Experiências</a>
                     <a href="#serv">Serviços</a>
                     <a href="#works">Projetos</a>
-                    <a href="#contate-me">Contate-me</a>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=5595981049469&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%20com%3A%20%09-%3E%20*Assist%C3%AAncia%20t%C3%A9cnica*%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB%3B%3F%20%09-%3E%20*Suporte*%F0%9F%92%BB%3B%3F">Contate-me</a>
                 </div>
                 <div class="redes-sociais_footer">
                     <a href=""><img src="./assets/icons/icon-twitter.svg" alt="rede social 1"></a>
