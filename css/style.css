@@ -78,7 +78,7 @@ i#burguer {
 #home {
     text-align: center;
     margin: 0px 177px 0px 177px;
-    padding: 120px 290px 0px 290px;
+    padding: 120px 290px 60px 290px;
     display: flex;
     flex-direction: column;
     gap: 26px;
@@ -129,12 +129,14 @@ i#burguer {
     height: 275px;
 }
 
+
 /* ---------------------------------------- SOBRE */
 
 #sobre {
+    border-top: 1px solid #767676;
     text-align: center;
     margin: 0px 177px 0px 177px;
-    padding: 85px 22px 36px 51px;
+    padding: 85px 22px 96px 51px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -247,9 +249,10 @@ i#burguer {
 /* ---------------------------- MINHAS EXPERIENCIAS (EXP) */
 
 #exp {
+    border-top: 1px solid #767676;
     text-align: center;
     margin: 0px 177px 0px 177px;
-    padding: 85px 22px 36px 51px;
+    padding: 85px 22px 66px 51px;
     display: flex;
     flex-direction: column;
     gap: 78px;
@@ -351,11 +354,11 @@ i#burguer {
 }
 
 .hab_1 {
-    width: 60%;
+    width: 90%;
 }
 
 .hab_2 {
-    width: 85%;
+    width: 75%;
 }
 
 .hab_3 {
@@ -363,7 +366,7 @@ i#burguer {
 }
 
 .hab_4 {
-    width: 60%;
+    width: 45%;
 }
 
 .hab_5 {
@@ -371,15 +374,16 @@ i#burguer {
 }
 
 .hab_6 {
-    width: 30%;
+    width: 35%;
 }
 
 /* ---------------------------------- SERVIÇOS */
 
 #serv {
+    border-top: 1px solid #767676;
     text-align: center;
     margin: 0px 177px 0px 177px;
-    padding: 90px 22px 20px 51px;
+    padding: 90px 22px 80px 51px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -465,6 +469,7 @@ i#burguer {
 /* ------------------------------------ WORKS */
 
 #works {
+    border-top: 1px solid #767676;
     text-align: center;
     margin: 0px 177px 0px 177px;
     padding: 90px 22px 20px 51px;
@@ -503,7 +508,7 @@ i#burguer {
     font-weight: bold;
 }
 
-.op_works a {
+.op_works {
     text-decoration: none;
     color: #ffffff;
 }
@@ -512,7 +517,7 @@ i#burguer {
     background-color: #ffa97a;
 }
 
-.op1_works a {
+.op1_works {
     color: #182228
 }
 
@@ -567,9 +572,10 @@ i#burguer {
 /* ------------------------------- CONTATE-ME */
 
 #contate-me {
+    border-top: 1px solid #767676;
     text-align: center;
     margin: 90px 177px 0px 177px;
-    padding: 90px 22px 80px 51px;
+    padding: 60px 22px 80px 51px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -677,13 +683,12 @@ i#burguer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        gap: 50px;
     }
 
     .menu_organizado {
         display: flex;
         flex-direction: row;
-        gap: 110px;
+        gap: 95px;
     }
 
     i#burguer {
@@ -705,6 +710,7 @@ i#burguer {
 
     #itens {
         display: none;
+        padding: 20px 0px 0px 0px;
     }
 
     #itens ul {
@@ -723,7 +729,7 @@ i#burguer {
     /* responsive: #home */
     #home {
         margin: 0px 5px 0px 5px;
-        padding: 120px 10px 0px 5px;
+        padding: 120px 10px 60px 5px;
     }
 
     .imagem_home {
@@ -735,7 +741,7 @@ i#burguer {
     /* responsive: #sobre */
     #sobre {
         margin: 0px 5px 0px 5px;
-        padding: 85px 10px 36px 10px;
+        padding: 55px 10px 36px 10px;
     }
 
     .cont_sobre {

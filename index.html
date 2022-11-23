@@ -9,7 +9,7 @@
         <title>Portfolio Jhonson</title>
         <!-- links de pastas locais -->
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./js/main.js">
+        <script src="./js/main.js"></script>
 
         <!-- links de apis e arquivos externos -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,12 +23,13 @@
             <nav id="navbar">
                 <div class="menu_organizado">
                     <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-                    <p class="nome_navbar" href="#home">
+                    <a class="nome_navbar" href="#home">
                         JhonsonM.
-                    </p>
+                    </a>
                 </div>
                 <menu id="itens" class="navbar_menu">
                     <ul>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#sobre">Sobre</a></li>
                         <li><a href="#exp">Experiência</a></li>
                         <li><a href="#serv">Serviços</a></li>
@@ -119,7 +120,7 @@
                             <div class="hab ">
                                 <div class="hab_box_exp">
                                     <h4>HTML</h4>
-                                    <p>70%</p>
+                                    <p>90%</p>
                                 </div>
                                 <div class="barra_box_exp">
                                     <div class="barra_frente hab_1"></div>
@@ -128,7 +129,7 @@
                             <div class="hab">
                                 <div class="hab_box_exp">
                                     <h4>CSS</h4>
-                                    <p>70%</p>
+                                    <p>75%</p>
                                 </div>
                                 <div class="barra_box_exp">
                                     <div class="barra_frente  hab_2"></div>
@@ -172,7 +173,7 @@
                             <div class="hab">
                                 <div class="hab_box_exp">
                                     <h4>VITE</h4>
-                                    <p>20%</p>
+                                    <p>35%</p>
                                 </div>
                                 <div class="barra_box_exp">
                                     <div class="barra_frente hab_6"></div>
@@ -250,18 +251,12 @@
                     <h5 class="descricao">-- Projects Recents --</h5>
                 </div>
                 <div class="opcoes_works">
-                    <div class="op_works op1_works">
-                        <a href="">Todos</a>
-                    </div>
-                    <div class="op_works op2_works">
-                        <a href="">Web</a>
-                    </div>
-                    <div class="op_works op3_works">
-                        <a href="">Design</a>
-                    </div>
+                    <a class="op_works op1_works" href="#work">Todos</a>
+                    <a class="op_works" href="#work">Web</a>
+                    <a class="op_works" href="#work">Design</a>
                 </div>
                 <div class="proj_works">
-                    <div class="box_proj_works work1">
+                    <div id="work" class="box_proj_works work1">
                         <h3>⚽ Na Trave - Bolão Copa</h3>
                         <img src="./assets/imgs/img-works1.svg" alt="foto projeto">
                         <div class="button_box_works">
@@ -280,7 +275,7 @@
             <div id="contate-me">
                 <div class="titulo titulo_contate-me">
                     <h1>Contate-me</h1>
-                    <h5 class="descricao">-- Contat --</h5>
+                    <h5 class="descricao">-- Contact --</h5>
                 </div>
                 <div class="redes-sociais_contate-me">
                     <div class="button_redes-sociais_contate-me">
