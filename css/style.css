@@ -729,7 +729,7 @@ i#burguer {
     /* responsive: #home */
     #home {
         margin: 0px 5px 0px 5px;
-        padding: 120px 10px 60px 5px;
+        padding: 120px 10px 150px 5px;
     }
 
     .imagem_home {
@@ -741,7 +741,7 @@ i#burguer {
     /* responsive: #sobre */
     #sobre {
         margin: 0px 5px 0px 5px;
-        padding: 55px 10px 36px 10px;
+        padding: 120px 10px 36px 10px;
     }
 
     .cont_sobre {
@@ -761,7 +761,7 @@ i#burguer {
     /* responsive: #exp */
     #exp {
         margin: 0px 5px 0px 5px;
-        padding: 85px 5px 36px 5px;
+        padding: 105px 5px 36px 5px;
     }
 
     .box_expgeral {
@@ -773,7 +773,7 @@ i#burguer {
     /* responsividade: #serv */
     #serv {
         margin: 0px 5px 0px 5px;
-        padding: 85px 5px 36px 5px;
+        padding: 105px 5px 36px 5px;
     }
 
     .box_servgeral {
@@ -789,7 +789,7 @@ i#burguer {
 
     #works {
         margin: 0px 5px 0px 5px;
-        padding: 90px 5px 20px 5px;
+        padding: 105px 5px 20px 5px;
     }
 
     .box_proj_works {
