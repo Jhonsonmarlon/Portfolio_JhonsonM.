@@ -3,10 +3,20 @@
     padding: 0 auto;
 }
 
+:root {
+    --color-principal: #97cadb;
+    --color-principal2: #02457a;
+    --color-bg: #111a20;
+    --color-bg-nav: #17232b;
+    --color-bg-fraco: #d6e8ee;
+    --color-branco: #ffffff;
+    --color-box: #182228;
+}
+
 
 /* --------------------------------- CORPO GERAL DO PROJETO */
 body {
-    background-color: #111a20;
+    background-color: var(--color-bg);
 }
 
 /* ----------------------------------------- HEADER */
@@ -19,8 +29,8 @@ nav {
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
-    color: white;
-    background-color: #17232b;
+    color: var(--color-branco);
+    background-color: var(--color-bg-nav);
     padding: 26px 27px;
 }
 
@@ -54,17 +64,17 @@ i#burguer {
 }
 
 #itens a {
-    color: white;
+    color: var(--color-branco);
     text-decoration: none;
 }
 
 #itens a:hover {
-    color: #ffa97a;
+    color: var(--color-principal);
 }
 
 #navbar a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--color-branco);
     font-weight: bold;
     font-family: 'Jost', sans-serif;
 }
@@ -85,7 +95,7 @@ i#burguer {
 }
 
 .texto_home {
-    color: white;
+    color: var(--color-branco);
     font-family: 'Jost', sans-serif;
     display: flex;
     flex-direction: column;
@@ -93,7 +103,7 @@ i#burguer {
 }
 
 .texto_home .cargo {
-    color: #ffa97a;
+    color: var(--color-principal);
 }
 
 .botoes_home {
@@ -106,21 +116,21 @@ i#burguer {
 }
 
 .botoes_home a {
-    border: 1px solid #ffa97a;
+    border: 1px solid var(--color-principal);
     padding: 13px;
     border-radius: 5px;
-    color: white;
+    color: var(--color-branco);
     text-decoration: none;
 }
 
 .botoes_home .b_sobre {
-    color: #17232b;
-    background-color: #ffa97a;
+    color: var(--color-bg-nav);
+    background-color: var(--color-principal);
 }
 
 .imagem_home {
     margin: 0px 75px 0px 75px;
-    background-color: #ffa97a;
+    background-color: var(--color-principal);
     border-radius: 70px 70px 20px 20px;
 }
 
@@ -149,7 +159,7 @@ i#burguer {
 }
 
 .titulo_sobre h1 {
-    color: #ffa97a;
+    color: var(--color-principal);
     font-family: 'Jost', sans-serif;
 }
 
@@ -166,7 +176,7 @@ i#burguer {
 
 .img_cont_sobre {
     margin: 0px 75px 0px 75px;
-    background-color: #ffa97a;
+    background-color: var(--color-principal);
     border-radius: 30px;
 }
 
@@ -207,7 +217,7 @@ i#burguer {
 }
 
 .box_sobre {
-    background-color: #182228;
+    background-color: var(--color-box);
     border-radius: 15px;
     padding: 12px 25px;
     display: flex;
@@ -222,7 +232,7 @@ i#burguer {
 }
 
 .box_sobre p {
-    color: #ffa97a;
+    color: var(--color-principal);
     font-family: 'Jost', sans-serif;
     font-weight: bold;
 }
@@ -234,15 +244,15 @@ i#burguer {
 
 .button_contate-me {
     padding: 13px;
-    background-color: #ffa97a;
-    border: 1px solid #ffa97a;
+    background-color: var(--color-principal);
+    border: 1px solid var(--color-principal);
     border-radius: 5px;
     font-weight: bold;
     font-family: 'Jost', sans-serif;
 }
 
 .button_contate-me a {
-    color: #17232b;
+    color: var(--color-bg-nav);
     text-decoration: none;
 }
 
@@ -265,7 +275,7 @@ i#burguer {
 }
 
 .titulo_exp h1 {
-    color: #ffa97a;
+    color: var(--color-principal);
     font-family: 'Jost', sans-serif;
 }
 
@@ -297,7 +307,7 @@ i#burguer {
     justify-content: center;
     gap: 40px;
     border-radius: 20px;
-    background-color: #182228;
+    background-color: var(--color-box);
     padding: 22px 44px 63px 31px;
     width: 300px;
     height: 250px;
@@ -319,7 +329,7 @@ i#burguer {
 }
 
 .hab_box_exp h4 {
-    color: white;
+    color: var(--color-branco);
     font-weight: bold;
 }
 
@@ -337,7 +347,7 @@ i#burguer {
 
 .barra_box_exp {
     width: 100%;
-    background-color: #ffa97a82;
+    background-color: var(--color-bg-fraco);
 }
 
 .barra_box_exp,
@@ -349,7 +359,7 @@ i#burguer {
 /* //detalhamento das barra_box's// */
 
 .barra_frente {
-    background-color: #ffa97a;
+    background-color: var(--color-principal2);
     opacity: 100%;
 }
 
@@ -396,7 +406,7 @@ i#burguer {
 }
 
 .titulo_serv h1 {
-    color: #ffa97a;
+    color: var(--color-principal);
     font-family: 'Jost', sans-serif;
 }
 
@@ -419,7 +429,7 @@ i#burguer {
     justify-content: space-around;
     gap: 30px;
     border-radius: 20px;
-    background-color: #182228;
+    background-color: var(--color-box);
     padding: 40px 44px 40px 31px;
     width: 300px;
     height: 150px;
@@ -434,7 +444,7 @@ i#burguer {
     justify-content: center;
     gap: 14px;
     text-align: justify;
-    color: #ffffff;
+    color: var(--color-branco);
     font-size: 16px;
 }
 
@@ -458,9 +468,9 @@ i#burguer {
 }
 
 .button_contate-me_serv a {
-    background-color: #182228;
-    border: 1px solid #ffa97a;
-    color: #ffffff;
+    background-color: var(--color-box);
+    border: 1px solid var(--color-principal);
+    color: var(--color-branco);
     padding: 9px;
     border-radius: 5px;
     text-decoration: none;
@@ -485,7 +495,7 @@ i#burguer {
 }
 
 .titulo_works h1 {
-    color: #ffa97a;
+    color: var(--color-principal);
     font-family: 'Jost', sans-serif;
 }
 
@@ -501,7 +511,7 @@ i#burguer {
 }
 
 .op_works {
-    border: 2px solid #ffa97a;
+    border: 2px solid var(--color-principal);
     padding: 7px 13px;
     border-radius: 5px;
     color: #ffffff;
@@ -514,11 +524,11 @@ i#burguer {
 }
 
 .op1_works {
-    background-color: #ffa97a;
+    background-color: var(--color-principal);
 }
 
 .op1_works {
-    color: #182228
+    color: var(--color-box)
 }
 
 .proj_works {
@@ -535,14 +545,14 @@ i#burguer {
     gap: 17px;
     align-items: flex-start;
     padding: 40px 10px 40px 31px;
-    background-color: #17232b;
+    background-color: var(--color-bg-nav);
     border-radius: 20px;
     width: 280px;
     height: 200px;
 }
 
 .box_proj_works h3 {
-    color: #ffffff;
+    color: var(--color-branco);
     font-weight: bold;
     font-family: 'Jost', sans-serif;
 }
@@ -561,9 +571,9 @@ i#burguer {
 }
 
 .button_box_works a {
-    background-color: #182228;
-    border: 1px solid #ffa97a;
-    color: #ffffff;
+    background-color: var(--color-box);
+    border: 1px solid var(--color-principal);
+    color: var(--color-branco);
     padding: 6px 9px;
     border-radius: 5px;
     text-decoration: none;
@@ -588,7 +598,7 @@ i#burguer {
 }
 
 .titulo_contate-me h1 {
-    color: #ffa97a;
+    color: var(--color-principal);
     font-family: 'Jost', sans-serif;
 }
 
@@ -612,14 +622,14 @@ i#burguer {
 
 .button_redes-sociais_contate-me a {
     padding: 15px;
-    background-color: #17232b;
+    background-color: var(--color-bg-nav);
     border-radius: 20px;
 }
 
 /* ------------------------------------ FOOTER  */
 
 #footer {
-    background-color: #ffa97a;
+    background-color: var(--color-principal);
     display: flex;
     flex-direction: column;
     gap: 17px;
@@ -643,7 +653,7 @@ i#burguer {
 
 .navbar-menu_footer a {
     text-decoration: none;
-    color: #17232b;
+    color: var(--color-bg-nav);
     font-family: 'Jost', sans-serif;
     font-weight: bold;
 }
@@ -658,7 +668,7 @@ i#burguer {
 
 .redes-sociais_footer a {
     padding: 5px 7px;
-    background-color: #17232b;
+    background-color: var(--color-bg-nav);
     border-radius: 5px;
 }
 
@@ -698,7 +708,7 @@ i#burguer {
 
     i#burguer:hover {
         background-color: #959595;
-        color: #ffa97a;
+        color: var(--color-principal);
     }
 
     .nome_navbar {
@@ -730,6 +740,10 @@ i#burguer {
     #home {
         margin: 0px 5px 0px 5px;
         padding: 120px 10px 150px 5px;
+    }
+
+    .img-home {
+        padding-top: 65px;
     }
 
     .imagem_home {
@@ -793,7 +807,7 @@ i#burguer {
     }
 
     .box_proj_works {
-        padding: 40px 45px 40px 50px;
+        padding: 40px 30px 40px 30px;
         display: flex;
         align-items: center;
     }
@@ -801,6 +815,7 @@ i#burguer {
     .proj_works {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .button_box_works {
