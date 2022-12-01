@@ -704,10 +704,10 @@ i#burguer {
     i#burguer {
         display: flex;
         width: fit-content;
+        color: var(--color-principal);
     }
 
     i#burguer:hover {
-        background-color: #959595;
         color: var(--color-principal);
     }
 
@@ -793,6 +793,7 @@ i#burguer {
     .box_servgeral {
         display: flex;
         flex-direction: column;
+        padding-top: 40px;
     }
 
     .box_serv {
