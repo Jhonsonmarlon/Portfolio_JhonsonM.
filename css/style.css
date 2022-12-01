@@ -529,19 +529,22 @@ i#burguer {
     color: #ffffff;
 }
 
-.op1_works {
+.op_works:hover {
     background-color: var(--color-principal);
-}
-
-.op1_works {
-    color: var(--color-box)
+    color: var(--color-bg-nav);
 }
 
 .proj_works {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
+}
+
+.web_works, .design_works {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .box_proj_works {
@@ -551,6 +554,7 @@ i#burguer {
     gap: 17px;
     align-items: flex-start;
     padding: 40px 10px 40px 31px;
+    margin-top: 20px;
     background-color: var(--color-bg-nav);
     border-radius: 20px;
     width: 280px;
@@ -811,6 +815,13 @@ i#burguer {
     #works {
         margin: 0px 5px 0px 5px;
         padding: 105px 5px 20px 5px;
+    }
+
+
+    .web_works, .design_works {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .box_proj_works {
