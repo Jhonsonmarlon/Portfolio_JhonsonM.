@@ -194,6 +194,12 @@ i#burguer {
     gap: 63px;
 }
 
+.texto_cont_sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .texto_cont_sobre p {
     color: #959595;
     text-align: justify;

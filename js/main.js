@@ -13,11 +13,3 @@ function clickForaMenu() {
         itens.style.display = 'none';
     }
 }
-
-function clickOp() {
-    if (item.style.display == 'active') {
-        itens.style.display = 'none';
-    } else {
-        itens.style.display = 'flex';
-    }
-}
